@@ -1,0 +1,129 @@
+{
+    "records": [{
+        "name": "Cloud",
+        "items": [],
+        "url": "https://integration.cloud.tibco.com:443"
+    }],
+    "resources": [
+        {
+            "location": "Service Descriptors/smartturbine101.module.Resource-Resource.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.Inventory_allv1-Resource.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.InventoryHV1-InventoryHV1.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.Inventory_Query-inventoryQueryResource.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.InventoryAll-InventoryAllV1.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.InventoryAll_Query-inventoryall.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.InventoryAll_Header-Resource.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.InventoryAll_Header-inventory_all.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.InventoryAll-Inventoryv1.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.InventoryAll-Inventoryv2.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.Inventory_Path-Inventoryv1.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.Inventory_Path-Inventoryv2.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.InventoryAll_Header-inventory.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.Inventory_Path-Inventory.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.Inventory_Header-inventory.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.Inventory_Query-inventoryall.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.Inventory_Query-inventory_q.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.Inventory_Path-Inventory_p.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.Inventory_Path-Inventory_q.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.Inventory_Header-inventory_h.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.Invertory_Header-Invetory_H.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.Inventory_P-inventory_p.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.Inventory_P-inventory.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.Inventory_Q-inventory_q.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.Invertory_H-Invetory_H.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.Inventory_P-usd-inventory.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.Inventory_P-Resource.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.Inventory_P.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.Inventory_H-Invetory_H.json",
+            "type": "generated"
+        },
+        {
+            "location": "Service Descriptors/smartturbine101.module.Inventory_P-Inventory-usd.json",
+            "type": "generated"
+        }
+    ]
+}

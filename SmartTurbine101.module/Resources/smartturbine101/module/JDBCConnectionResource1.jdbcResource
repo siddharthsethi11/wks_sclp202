@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jdbc="http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:subject="http://xsd.tns.tibco.com/trinity/models/identity/subject" xmi:id="_Dus2QWpOEemw3bvxnqTb3g" name="smartturbine101.module.JDBCConnectionResource1" type="jdbc:JdbcDataSource">
+  <jndi:reference xmi:id="_Du4ccGpOEemw3bvxnqTb3g" key="subjectJndiName" type="subject:SubjectConfiguration" value=""/>
+  <jndi:configuration xsi:type="jdbc:JdbcDataSource" xmi:id="_Du4ccWpOEemw3bvxnqTb3g" username="postgres" password="#!S0sA7s2MsYzbRbPsQOTrEntrXyEu496M7wK9eYRT8uU=">
+    <connectionConfig xsi:type="jdbc:NonXaConnection" xmi:id="_Du4ccmpOEemw3bvxnqTb3g" jdbcDriver="tibcosoftwareinc.jdbc.postgresql.PostgreSQLDriver">
+      <substitutionBindings xmi:id="_XrvvUGpVEemw3bvxnqTb3g" template="dbURL" propName="DB_URL"/>
+    </connectionConfig>
+  </jndi:configuration>
+</jndi:namedResource>

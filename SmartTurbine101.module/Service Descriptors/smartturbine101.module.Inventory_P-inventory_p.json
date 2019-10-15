@@ -1,0 +1,84 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "1.0",
+    "title" : "Summary about the new REST service.",
+    "description" : "Summary about the new REST service."
+  },
+  "host" : "localhost:8084",
+  "basePath" : "/",
+  "schemes" : [ "http" ],
+  "paths" : {
+    "/v1/inventory" : {
+      "get" : {
+        "summary" : "",
+        "description" : "",
+        "operationId" : "get-inventory_p",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "a InventoryAll_Response to be returned",
+            "schema" : {
+              "$ref" : "#/definitions/InventoryAll_Response"
+            }
+          }
+        }
+      }
+    },
+    "/v2/inventory" : {
+      "get" : {
+        "summary" : "",
+        "description" : "",
+        "operationId" : "get-v2-inventory",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "a InventoryAll_Response to be returned",
+            "schema" : {
+              "$ref" : "#/definitions/InventoryAll_Response"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "dialogAction" : {
+      "type" : "object",
+      "properties" : {
+        "type" : {
+          "type" : "string"
+        },
+        "fulfillmentState" : {
+          "type" : "string"
+        },
+        "message" : {
+          "$ref" : "#/definitions/message"
+        }
+      }
+    },
+    "InventoryAll_Response" : {
+      "type" : "object",
+      "properties" : {
+        "dialogAction" : {
+          "$ref" : "#/definitions/dialogAction"
+        }
+      }
+    },
+    "message" : {
+      "type" : "object",
+      "properties" : {
+        "contentType" : {
+          "type" : "string"
+        },
+        "content" : {
+          "type" : "string"
+        }
+      }
+    }
+  }
+}

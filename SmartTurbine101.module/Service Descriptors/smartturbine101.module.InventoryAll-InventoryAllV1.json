@@ -1,0 +1,66 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "1.0",
+    "title" : "Summary about the new REST service.",
+    "description" : "Summary about the new REST service."
+  },
+  "host" : "localhost:8084",
+  "basePath" : "/",
+  "schemes" : [ "http" ],
+  "paths" : {
+    "/inventoryall/v2" : {
+      "get" : {
+        "summary" : "",
+        "description" : "",
+        "operationId" : "get-inventoryall-v2",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "a Response_InventoryAll to be returned",
+            "schema" : {
+              "$ref" : "#/definitions/Response_InventoryAll"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "dialogAction" : {
+      "type" : "object",
+      "properties" : {
+        "type" : {
+          "type" : "string"
+        },
+        "fulfillmentState" : {
+          "type" : "string"
+        },
+        "message" : {
+          "$ref" : "#/definitions/message"
+        }
+      }
+    },
+    "message" : {
+      "type" : "object",
+      "properties" : {
+        "contentType" : {
+          "type" : "string"
+        },
+        "content" : {
+          "type" : "string"
+        }
+      }
+    },
+    "Response_InventoryAll" : {
+      "type" : "object",
+      "properties" : {
+        "dialogAction" : {
+          "$ref" : "#/definitions/dialogAction"
+        }
+      }
+    }
+  }
+}

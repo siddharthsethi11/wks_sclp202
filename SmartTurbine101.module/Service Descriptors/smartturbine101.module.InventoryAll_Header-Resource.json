@@ -1,0 +1,76 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "1.0",
+    "title" : "Summary about the new REST service.",
+    "description" : "Summary about the new REST service."
+  },
+  "host" : "localhost:8080",
+  "basePath" : "/",
+  "schemes" : [ "http" ],
+  "paths" : {
+    "/inventorydetail" : {
+      "get" : {
+        "summary" : "",
+        "description" : "",
+        "operationId" : "get-inventorydetail",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ {
+          "name" : "version",
+          "in" : "header",
+          "description" : "",
+          "type" : "array",
+          "items" : {
+            "type" : "string",
+            "uniqueItems" : false
+          },
+          "required" : false
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "a InventoryAll_Response to be returned",
+            "schema" : {
+              "$ref" : "#/definitions/InventoryAll_Response"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "dialogAction" : {
+      "type" : "object",
+      "properties" : {
+        "type" : {
+          "type" : "string"
+        },
+        "fulfillmentState" : {
+          "type" : "string"
+        },
+        "message" : {
+          "$ref" : "#/definitions/message"
+        }
+      }
+    },
+    "InventoryAll_Response" : {
+      "type" : "object",
+      "properties" : {
+        "dialogAction" : {
+          "$ref" : "#/definitions/dialogAction"
+        }
+      }
+    },
+    "message" : {
+      "type" : "object",
+      "properties" : {
+        "contentType" : {
+          "type" : "string"
+        },
+        "content" : {
+          "type" : "string"
+        }
+      }
+    }
+  }
+}

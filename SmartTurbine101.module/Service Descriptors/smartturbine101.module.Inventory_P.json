@@ -1,0 +1,66 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "1.0",
+    "title" : "Summary about the new REST service.",
+    "description" : "Summary about the new REST service."
+  },
+  "host" : "localhost:8080",
+  "basePath" : "/",
+  "schemes" : [ "http" ],
+  "paths" : {
+    "/eur/inventory" : {
+      "get" : {
+        "summary" : "",
+        "description" : "",
+        "operationId" : "get-eur-inventory",
+        "consumes" : [ "application/json" ],
+        "produces" : [ "application/json" ],
+        "parameters" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "a Response_DynamicPriceAll to be returned",
+            "schema" : {
+              "$ref" : "#/definitions/Response_DynamicPriceAll"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "dialogAction" : {
+      "type" : "object",
+      "properties" : {
+        "type" : {
+          "type" : "string"
+        },
+        "fulfillmentState" : {
+          "type" : "string"
+        },
+        "message" : {
+          "$ref" : "#/definitions/message"
+        }
+      }
+    },
+    "Response_DynamicPriceAll" : {
+      "type" : "object",
+      "properties" : {
+        "dialogAction" : {
+          "$ref" : "#/definitions/dialogAction"
+        }
+      }
+    },
+    "message" : {
+      "type" : "object",
+      "properties" : {
+        "contentType" : {
+          "type" : "string"
+        },
+        "content" : {
+          "type" : "string"
+        }
+      }
+    }
+  }
+}

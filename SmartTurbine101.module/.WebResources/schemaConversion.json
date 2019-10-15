@@ -1,0 +1,87 @@
+{"records": [
+    {
+        "jsonSchemaLocation": "/SmartTurbine101.module/Service Descriptors/SmartTurbine_v_101.json",
+        "conversionType": "generated",
+        "xsdSchemaTargetNamespace": "/T1551766170793Converted/JsonSchema"
+    },
+    {
+        "jsonSchemaLocation": "/SmartTurbine101.module/Service Descriptors/SmartTurbine_1.0.1.json",
+        "conversionType": "generated",
+        "xsdSchemaTargetNamespace": "/T1551769731196Converted/JsonSchema"
+    },
+    {
+        "jsonSchemaLocation": "/SmartTurbine101.module/Service Descriptors/smartturbine101.module.Resource-Resource.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "http://xmlns.example.com/Inventory_ProductID/parameters"
+    },
+    {
+        "jsonSchemaLocation": "/SmartTurbine101.module/Service Descriptors/smartturbine101.module.InventoryHV1-InventoryHV1.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "/T1551769731196Converted/JsonSchema"
+    },
+    {
+        "jsonSchemaLocation": "/SmartTurbine101.module/Service Descriptors/smartturbine101.module.Inventory_Query-inventoryQueryResource.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "/T1551769731196Converted/JsonSchema"
+    },
+    {
+        "jsonSchemaLocation": "/SmartTurbine101.module/Service Descriptors/smartturbine101.module.InventoryAll_Query-inventoryall.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "/T1551769731196Converted/JsonSchema"
+    },
+    {
+        "jsonSchemaLocation": "/SmartTurbine101.module/Service Descriptors/smartturbine101.module.InventoryAll_Header-Resource.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "/T1551769731196Converted/JsonSchema"
+    },
+    {
+        "jsonSchemaLocation": "/SmartTurbine101.module/Service Descriptors/smartturbine101.module.InventoryAll_Header-inventory_all.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "/T1551769731196Converted/JsonSchema"
+    },
+    {
+        "jsonSchemaLocation": "/SmartTurbine101.module/Service Descriptors/smartturbine101.module.Invertory_Header-Invetory_H.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "/T1551769731196Converted/JsonSchema"
+    },
+    {
+        "jsonSchemaLocation": "/SmartTurbine101.module/Service Descriptors/smartturbine101.module.Inventory_P-inventory_p.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "/T1551769731196Converted/JsonSchema"
+    },
+    {
+        "jsonSchemaLocation": "/SmartTurbine101.module/Service Descriptors/smartturbine101.module.Inventory_P-inventory.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "/T1551769731196Converted/JsonSchema"
+    },
+    {
+        "jsonSchemaLocation": "/SmartTurbine101.module/Service Descriptors/smartturbine101.module.Inventory_Q-inventory_q.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "/T1551769731196Converted/JsonSchema"
+    },
+    {
+        "jsonSchemaLocation": "/SmartTurbine101.module/Service Descriptors/smartturbine101.module.Inventory_P-usd-inventory.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "/T1551769731196Converted/JsonSchema"
+    },
+    {
+        "jsonSchemaLocation": "/SmartTurbine101.module/Service Descriptors/smartturbine101.module.Inventory_P-Resource.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "/T1551769731196Converted/JsonSchema"
+    },
+    {
+        "jsonSchemaLocation": "/SmartTurbine101.module/Service Descriptors/smartturbine101.module.Inventory_P-inventory.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "http://xmlns.example.com/InventoryAllV1/parameters"
+    },
+    {
+        "jsonSchemaLocation": "/SmartTurbine101.module/Service Descriptors/smartturbine101.module.Inventory_P-Inventory-usd.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "/T1551766170793Converted/JsonSchema"
+    },
+    {
+        "jsonSchemaLocation": "/SmartTurbine101.module/Service Descriptors/smartturbine101.module.Inventory_P-inventory.json",
+        "conversionType": "linked",
+        "xsdSchemaTargetNamespace": "/T1551766170793Converted/JsonSchema"
+    }
+]}

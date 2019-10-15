@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="/T1551769731196Converted/JsonSchema" xmlns:tns="/T1551769731196Converted/JsonSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Response_DynamicPriceID" type="tns:Response_DynamicPriceID"/>
+    <xs:complexType name="Response_DynamicPriceID">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="dialogAction">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="type" type="xs:string"/>
+                        <xs:element minOccurs="0" name="fulfillmentState" type="xs:string"/>
+                        <xs:element minOccurs="0" name="message">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element minOccurs="0" name="contentType" type="xs:string"/>
+                                    <xs:element minOccurs="0" name="content" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="InventoryID_Response" type="tns:InventoryID_Response"/>
+    <xs:complexType name="InventoryID_Response">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="dialogAction">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="type" type="xs:string"/>
+                        <xs:element minOccurs="0" name="fulfillmentState" type="xs:string"/>
+                        <xs:element minOccurs="0" name="message">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element minOccurs="0" name="contentType" type="xs:string"/>
+                                    <xs:element minOccurs="0" name="content" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="Response_InventoryAll" type="tns:Response_InventoryAll"/>
+    <xs:complexType name="Response_InventoryAll">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="dialogAction">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="type" type="xs:string"/>
+                        <xs:element minOccurs="0" name="fulfillmentState" type="xs:string"/>
+                        <xs:element minOccurs="0" name="message">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element minOccurs="0" name="contentType" type="xs:string"/>
+                                    <xs:element minOccurs="0" name="content" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="Response_DynamicPriceAll" type="tns:Response_DynamicPriceAll"/>
+    <xs:complexType name="Response_DynamicPriceAll">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="dialogAction">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="type" type="xs:string"/>
+                        <xs:element minOccurs="0" name="fulfillmentState" type="xs:string"/>
+                        <xs:element minOccurs="0" name="message">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element minOccurs="0" name="contentType" type="xs:string"/>
+                                    <xs:element minOccurs="0" name="content" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="GiveNewSchemaNameHere" type="tns:GiveNewSchemaNameHere"/>
+    <xs:complexType name="GiveNewSchemaNameHere">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="dialogAction">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="type" type="xs:string"/>
+                        <xs:element minOccurs="0" name="fulfillmentState" type="xs:string"/>
+                        <xs:element minOccurs="0" name="message">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element minOccurs="0" name="contentType" type="xs:string"/>
+                                    <xs:element minOccurs="0" name="content" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="InventoryAll_Response" type="tns:InventoryAll_Response"/>
+    <xs:complexType name="InventoryAll_Response">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="dialogAction">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="type" type="xs:string"/>
+                        <xs:element minOccurs="0" name="fulfillmentState" type="xs:string"/>
+                        <xs:element minOccurs="0" name="message">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element minOccurs="0" name="contentType" type="xs:string"/>
+                                    <xs:element minOccurs="0" name="content" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="DynamicPriceID_Response" type="tns:DynamicPriceID_Response"/>
+    <xs:complexType name="DynamicPriceID_Response">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="dialogAction">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="type" type="xs:string"/>
+                        <xs:element minOccurs="0" name="fulfillmentState" type="xs:string"/>
+                        <xs:element minOccurs="0" name="message">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element minOccurs="0" name="contentType" type="xs:string"/>
+                                    <xs:element minOccurs="0" name="content" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="DynamicPriceAll_Response" type="tns:DynamicPriceAll_Response"/>
+    <xs:complexType name="DynamicPriceAll_Response">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="dialogAction">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="type" type="xs:string"/>
+                        <xs:element minOccurs="0" name="fulfillmentState" type="xs:string"/>
+                        <xs:element minOccurs="0" name="message">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element minOccurs="0" name="contentType" type="xs:string"/>
+                                    <xs:element minOccurs="0" name="content" type="xs:string"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

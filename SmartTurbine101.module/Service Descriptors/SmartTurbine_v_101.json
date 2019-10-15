@@ -1,0 +1,394 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.1",
+    "title": "SmartTurbine",
+    "x-lastModified": "Mar 04, 2019 22:06PM PST"
+  },
+  "paths": {
+    "/inventory": {
+      "get": {
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success response",
+            "schema": {
+              "$ref": "#/definitions/InventoryAll_Response"
+            },
+            "examples": {
+              "application/json": {
+                "dialogAction": {
+                  "type": "Close",
+                  "fulfillmentState": "Fulfilled",
+                  "message": {
+                    "contentType": "PlainText",
+                    "content": "Flynn has executed your function."
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "operationId": "getInventory"
+      }
+    },
+    "/dynamicprice": {
+      "get": {
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success response",
+            "schema": {
+              "$ref": "#/definitions/DynamicPriceAll_Response"
+            },
+            "examples": {
+              "application/json": {
+                "dialogAction": {
+                  "type": "Close",
+                  "fulfillmentState": "Fulfilled",
+                  "message": {
+                    "contentType": "PlainText",
+                    "content": "Flynn has executed your function."
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "operationId": "getDynamicprice"
+      }
+    },
+    "/inventory/{id}": {
+      "get": {
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success response",
+            "schema": {
+              "$ref": "#/definitions/InventoryID_Response"
+            },
+            "examples": {
+              "application/json": {
+                "dialogAction": {
+                  "type": "Close",
+                  "fulfillmentState": "Fulfilled",
+                  "message": {
+                    "contentType": "PlainText",
+                    "content": "Flynn has executed your function."
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "type": "string",
+            "format": ""
+          }
+        ],
+        "operationId": "getInventory_id"
+      }
+    },
+    "/dynamicprice/{id}": {
+      "get": {
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success response",
+            "schema": {
+              "$ref": "#/definitions/DynamicPriceID_Response"
+            },
+            "examples": {
+              "application/json": {
+                "dialogAction": {
+                  "type": "Close",
+                  "fulfillmentState": "Fulfilled",
+                  "message": {
+                    "contentType": "PlainText",
+                    "content": "Flynn has executed your function."
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "type": "string",
+            "format": ""
+          }
+        ],
+        "operationId": "getDynamicprice_id"
+      }
+    }
+  },
+  "definitions": {
+    "GiveNewSchemaNameHere": {
+      "type": "object",
+      "properties": {
+        "dialogAction": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "default": "Close"
+            },
+            "fulfillmentState": {
+              "type": "string",
+              "default": "Fulfilled"
+            },
+            "message": {
+              "type": "object",
+              "properties": {
+                "contentType": {
+                  "type": "string",
+                  "default": "PlainText"
+                },
+                "content": {
+                  "type": "string",
+                  "default": "Flynn has executed your function."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Response_InventoryAll": {
+      "type": "object",
+      "properties": {
+        "dialogAction": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "default": "Close"
+            },
+            "fulfillmentState": {
+              "type": "string",
+              "default": "Fulfilled"
+            },
+            "message": {
+              "type": "object",
+              "properties": {
+                "contentType": {
+                  "type": "string",
+                  "default": "PlainText"
+                },
+                "content": {
+                  "type": "string",
+                  "default": "Flynn has executed your function."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Response_DynamicPriceAll": {
+      "type": "object",
+      "properties": {
+        "dialogAction": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "default": "Close"
+            },
+            "fulfillmentState": {
+              "type": "string",
+              "default": "Fulfilled"
+            },
+            "message": {
+              "type": "object",
+              "properties": {
+                "contentType": {
+                  "type": "string",
+                  "default": "PlainText"
+                },
+                "content": {
+                  "type": "string",
+                  "default": "Flynn has executed your function."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Response_DynamicPriceID": {
+      "type": "object",
+      "properties": {
+        "dialogAction": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "default": "Close"
+            },
+            "fulfillmentState": {
+              "type": "string",
+              "default": "Fulfilled"
+            },
+            "message": {
+              "type": "object",
+              "properties": {
+                "contentType": {
+                  "type": "string",
+                  "default": "PlainText"
+                },
+                "content": {
+                  "type": "string",
+                  "default": "Flynn has executed your function."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "InventoryID_Response": {
+      "type": "object",
+      "properties": {
+        "dialogAction": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "default": "Close"
+            },
+            "fulfillmentState": {
+              "type": "string",
+              "default": "Fulfilled"
+            },
+            "message": {
+              "type": "object",
+              "properties": {
+                "contentType": {
+                  "type": "string",
+                  "default": "PlainText"
+                },
+                "content": {
+                  "type": "string",
+                  "default": "Flynn has executed your function."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "InventoryAll_Response": {
+      "type": "object",
+      "properties": {
+        "dialogAction": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "default": "Close"
+            },
+            "fulfillmentState": {
+              "type": "string",
+              "default": "Fulfilled"
+            },
+            "message": {
+              "type": "object",
+              "properties": {
+                "contentType": {
+                  "type": "string",
+                  "default": "PlainText"
+                },
+                "content": {
+                  "type": "string",
+                  "default": "Flynn has executed your function."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "DynamicPriceAll_Response": {
+      "type": "object",
+      "properties": {
+        "dialogAction": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "default": "Close"
+            },
+            "fulfillmentState": {
+              "type": "string",
+              "default": "Fulfilled"
+            },
+            "message": {
+              "type": "object",
+              "properties": {
+                "contentType": {
+                  "type": "string",
+                  "default": "PlainText"
+                },
+                "content": {
+                  "type": "string",
+                  "default": "Flynn has executed your function."
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "DynamicPriceID_Response": {
+      "type": "object",
+      "properties": {
+        "dialogAction": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "default": "Close"
+            },
+            "fulfillmentState": {
+              "type": "string",
+              "default": "Fulfilled"
+            },
+            "message": {
+              "type": "object",
+              "properties": {
+                "contentType": {
+                  "type": "string",
+                  "default": "PlainText"
+                },
+                "content": {
+                  "type": "string",
+                  "default": "Flynn has executed your function."
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
